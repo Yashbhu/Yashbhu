@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Yashbhu/Yashbhu/main/assets/banner.png" alt="profile banner" width="250"/>
+  <img src="https://i.pinimg.com/originals/7c/d7/2d/7cd72df765ac4f50767325c7c6564058.jpg" alt="profile picture" width="180" style="border-radius: 50%;" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Yash Bahuguna</h1>
+
 <h3 align="center">
 A tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br>
 🎓 Pursuing B.Tech in Electronics and Communication Engineering<br>
@@ -11,7 +12,15 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 🤝 Open to connections for hackathons, ideas, and projects!
 </h3>
 
+---
+
+### 📫 Connect with me
+
 - 📧 Email: [yashbahuguna418@gmail.com](mailto:yashbahuguna418@gmail.com)
+
+---
+
+### 🛠️ Languages & Tools
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
@@ -26,23 +35,34 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
   <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
 </p>
 
+---
+
+### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yashbhu&show_icons=true&theme=default" alt="GitHub Stats" />
 </p>
 
+---
+
+### 🔥 GitHub Streak
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=yashbhu&theme=default&hide_border=false" alt="GitHub Streak" />
 </p>
 
+---
+
+### 📈 Top Languages
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashbhu&layout=compact&theme=default" alt="Top Languages" />
 </p>
 
+---
+
+### 💡 Fun Fact
 
 > "Consistency builds reputation. I keep learning, building, and improving."
 
----
 
