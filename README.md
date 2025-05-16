@@ -58,7 +58,7 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-<h1 align="centre">random ahh quote</h1>
-> "Consistency builds reputation. I keep learning, building, and improving."
+<h2 align="centre">random ahh quote</h2>
+> "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you are doing or learning to do"
 
 
