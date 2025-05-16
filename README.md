@@ -1,63 +1,48 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yashbhu/Yashbhu/main/assets/banner.png" alt="profile banner" width="250"/>
+</p>
+
 <h1 align="center">Hi 👋, I'm Yash Bahuguna</h1>
 <h3 align="center">
-I am a tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br>
-🎓 Currently pursuing B.Tech in Electronics and Communication Engineering.<br>
-🚀 Actively looking to collaborate on cool projects, hackathons, and exciting ideas.<br>
-🌱 Currently mastering my web development skills and learning new tech stacks.<br>
-🤝 Feel free to connect with me for hackathons, projects, or any innovative ideas!
+A tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br>
+🎓 Pursuing B.Tech in Electronics and Communication Engineering<br>
+🚀 Actively looking to collaborate on cool projects, hackathons, and innovative ideas<br>
+🌱 Currently sharpening my web dev skills and learning new tech stacks<br>
+🤝 Open to connections for hackathons, ideas, and projects!
 </h3>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=yashbhu&label=Profile%20views&color=0e75b6&style=flat" alt="yashbhu" />
+- 📧 Email: [yashbahuguna418@gmail.com](mailto:yashbahuguna418@gmail.com)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
 </p>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  📧 Email: <a href="mailto:yashbahuguna418@gmail.com">yashbahuguna418@gmail.com</a>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yashbhu&show_icons=true&theme=default" alt="GitHub Stats" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-  </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
-  </a>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=yashbhu&theme=default&hide_border=false" alt="GitHub Streak" />
 </p>
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yashbhu&show_icons=true&locale=en&layout=compact" alt="yashbhu" />
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashbhu&layout=compact&theme=default" alt="Top Languages" />
 </p>
 
-<p>&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=yashbhu&show_icons=true&locale=en" alt="yashbhu" />
-</p>
 
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yashbhu&" alt="yashbhu" />
-</p>
+> "Consistency builds reputation. I keep learning, building, and improving."
+
+---
+
