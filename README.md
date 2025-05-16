@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm yash bahuguna</h1>
-<h3 align="center">i am tech enthusiast who likes exploring and building cool stuff which can solve real world problems</h3>
+<h3 align="center">i am tech enthusiast who likes exploring and building cool stuff which can solve real world problems🎓 I am currently I am currently pursuing BTech in Electronics and Communication Engineering 🚀 I'm actively looking to collaborate in cool projects,Hackathons and exciting ideas 🌱 I’m currently mastering my webdev skills and new tech stacks you can connect me for hackathons,ideas and projects</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yashbhu&label=Profile%20views&color=0e75b6&style=flat" alt="yashbhu" /> </p>
-
-- 📫 you can connect me on **yashbahuguna418@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
