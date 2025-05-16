@@ -14,13 +14,11 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-### 📫 Connect with me
+
 
 - 📧 Email: [yashbahuguna418@gmail.com](mailto:yashbahuguna418@gmail.com)
 
 ---
-
-### 🛠️ Languages & Tools
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
@@ -37,7 +35,7 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-### 📊 GitHub Stats
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=yashbhu&show_icons=true&theme=default" alt="GitHub Stats" />
@@ -45,7 +43,7 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-### 🔥 GitHub Streak
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=yashbhu&theme=default&hide_border=false" alt="GitHub Streak" />
@@ -53,7 +51,6 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-### 📈 Top Languages
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yashbhu&layout=compact&theme=default" alt="Top Languages" />
@@ -61,7 +58,6 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-### 💡 Fun Fact
 
 > "Consistency builds reputation. I keep learning, building, and improving."
 
