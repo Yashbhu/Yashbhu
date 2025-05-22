@@ -19,67 +19,68 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 ---
 
 <h2 align="center">🛠️ Skills</h2>
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 600px; margin: auto;">
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #39ff14, 0 0 20px #39ff14;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="50" height="50"/>
-  <p style="color:#39ff14; margin-top: 8px; font-weight: 600;">C</p>
-</div>
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 30px; max-width: 600px; margin: auto;">
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #f0db4f, 0 0 20px #f0db4f;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
-  <p style="color:#f0db4f; margin-top: 8px; font-weight: 600;">JavaScript</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #39ff14;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#39ff14; font-weight: 600; text-align:center; margin-top: 8px;">C</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #3178c6, 0 0 20px #3178c6;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
-  <p style="color:#3178c6; margin-top: 8px; font-weight: 600;">TypeScript</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #f0db4f;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#f0db4f; font-weight: 600; text-align:center; margin-top: 8px;">JavaScript</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #61dafb, 0 0 20px #61dafb;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50"/>
-  <p style="color:#61dafb; margin-top: 8px; font-weight: 600;">React</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #3178c6;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#3178c6; font-weight: 600; text-align:center; margin-top: 8px;">TypeScript</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #306998, 0 0 20px #306998;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
-  <p style="color:#306998; margin-top: 8px; font-weight: 600;">Python</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #61dafb;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#61dafb; font-weight: 600; text-align:center; margin-top: 8px;">React</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #68a063, 0 0 20px #68a063;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50"/>
-  <p style="color:#68a063; margin-top: 8px; font-weight: 600;">Node.js</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #306998;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#306998; font-weight: 600; text-align:center; margin-top: 8px;">Python</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #000000, 0 0 20px #000000;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="50" height="50"/>
-  <p style="color:#000000; margin-top: 8px; font-weight: 600;">Express</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #68a063;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#68a063; font-weight: 600; text-align:center; margin-top: 8px;">Node.js</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #4479a1, 0 0 20px #4479a1;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50"/>
-  <p style="color:#4479a1; margin-top: 8px; font-weight: 600;">MySQL</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #000;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#000; font-weight: 600; text-align:center; margin-top: 8px;">Express</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #f05340, 0 0 20px #f05340;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/>
-  <p style="color:#f05340; margin-top: 8px; font-weight: 600;">Linux</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #4479a1;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#4479a1; font-weight: 600; text-align:center; margin-top: 8px;">MySQL</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #f34f29, 0 0 20px #f34f29;">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50"/>
-  <p style="color:#f34f29; margin-top: 8px; font-weight: 600;">Git</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #f05340;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#f05340; font-weight: 600; text-align:center; margin-top: 8px;">Linux</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #ff6c37, 0 0 20px #ff6c37;">
-  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="50" height="50"/>
-  <p style="color:#ff6c37; margin-top: 8px; font-weight: 600;">Postman</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #f34f29;">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#f34f29; font-weight: 600; text-align:center; margin-top: 8px;">Git</p>
+  </div>
 
-<div style="background: #0d1117; padding: 15px 25px; border-radius: 12px; box-shadow: inset 0 0 10px #38bdf8, 0 0 20px #38bdf8;">
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="50" height="50"/>
-  <p style="color:#38bdf8; margin-top: 8px; font-weight: 600;">Tailwind CSS</p>
-</div>
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #ff6c37;">
+    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#ff6c37; font-weight: 600; text-align:center; margin-top: 8px;">Postman</p>
+  </div>
+
+  <div style="background: #0d1117; padding: 15px; border-radius: 12px; box-shadow: 0 0 15px #38bdf8;">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="50" height="50" style="display:block; margin:auto;" />
+    <p style="color:#38bdf8; font-weight: 600; text-align:center; margin-top: 8px;">Tailwind CSS</p>
+  </div>
 
 </div>
 
@@ -103,54 +104,10 @@ A tech enthusiast who loves exploring and building cool stuff that solves real-w
 
 ---
 
-<h2 align="center">🌟 Random Quote Generator</h2>
+<h2 align="center" style="margin-top: 40px;">💬 Quote</h2>
 
-<div align="center" id="quote-box" style="max-width: 600px; padding: 20px; background: #0d1117; border-radius: 12px; color: #39ff14; font-style: italic; font-size: 1.2rem; box-shadow: 0 0 15px #39ff14;">
-  <p id="quote-text">Loading quote...</p>
-  <p id="quote-author" style="margin-top: 10px; font-weight: 700;"></p>
-  <img id="quote-image" src="" alt="quote image" style="margin-top: 15px; max-width: 100px; border-radius: 10px; display: none;" />
-  <br />
-  <button onclick="newQuote()" style="margin-top: 20px; padding: 10px 15px; border:none; border-radius: 8px; background: #39ff14; color: #0d1117; cursor: pointer; font-weight: 700;">New Quote</button>
+<div align="center" style="max-width: 600px; margin: auto; background: #0d1117; border-radius: 12px; padding: 20px; box-shadow: inset 0 0 15px #4caf50; font-style: italic; color: #c3ffbd;">
+  “Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you are doing or learning to do.”
+  <br><br>
+  — Pelé
 </div>
-
-<script>
-  const quotes = [
-    {
-      text: "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you are doing or learning to do.",
-      author: "Pelé",
-      img: "https://i.pinimg.com/originals/9b/23/39/9b233970e3b9f6c3b16f6fbcdbbb5bf8.jpg"
-    },
-    {
-      text: "The only way to do great work is to love what you do.",
-      author: "Steve Jobs",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Steve_Jobs_Headshot_2010-CROP2.jpg/220px-Steve_Jobs_Headshot_2010-CROP2.jpg"
-    },
-    {
-      text: "Don't watch the clock; do what it does. Keep going.",
-      author: "Sam Levenson",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sam_Levenson_1964.JPG/220px-Sam_Levenson_1964.JPG"
-    },
-    {
-      text: "It always seems impossible until it's done.",
-      author: "Nelson Mandela",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nelson_Mandela-2008_%28edit%29.jpg/220px-Nelson_Mandela-2008_%28edit%29.jpg"
-    },
-  ];
-
-  function newQuote() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    const quote = quotes[randomIndex];
-    document.getElementById("quote-text").innerText = `"${quote.text}"`;
-    document.getElementById("quote-author").innerText = `- ${quote.author}`;
-    const imgEl = document.getElementById("quote-image");
-    if(quote.img) {
-      imgEl.src = quote.img;
-      imgEl.style.display = "block";
-    } else {
-      imgEl.style.display = "none";
-    }
-  }
-
-  newQuote();
-</script>
-
