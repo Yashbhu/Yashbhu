@@ -6,7 +6,7 @@
 
 <h3 align="center" style="line-height: 1.6;">
   A tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br><br>
-  🎓 Pursuing B.Tech in Electronics and Communication Engineering<br><br>
+  🎓 Pursuing B.Tech in Computer Science and Technology<br><br>
   🚀 Actively looking to collaborate on cool projects, hackathons, and innovative ideas<br><br>
   🌱 Currently sharpening my web dev skills and learning new tech stacks<br><br>
   🤝 Open to connections for hackathons, ideas, and projects!
@@ -49,7 +49,12 @@
 
   <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #000; display: flex; flex-direction: column; align-items: center; width: 80px;">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40" />
-    <small style="color:#000; margin-top: 5px; font-weight: 600;">Express</small>
+    <small style="color:#fff; margin-top: 5px; font-weight: 600;">Express</small>
+  </span>
+
+  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #4DB33D; display: flex; flex-direction: column; align-items: center; width: 80px;">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40" />
+    <small style="color:#4DB33D; margin-top: 5px; font-weight: 600;">MongoDB</small>
   </span>
 
   <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #4479a1; display: flex; flex-direction: column; align-items: center; width: 80px;">
@@ -113,4 +118,3 @@
 <p align="center">
   📧 Email: <a href="mailto:yashbahuguna@example.com">yashbahuguna@example.com</a>
 </p>
-
