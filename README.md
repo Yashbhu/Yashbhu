@@ -14,75 +14,53 @@
 
 ---
 
-<h2 align="center">🛠️ Skills</h2>
+import React from "react";
 
-<p align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; max-width: 700px; margin: auto;">
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #39ff14; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
-    <small style="color:#39ff14; margin-top: 5px; font-weight: 600;">C</small>
-  </span>
+const skills = [
+  "HTML5", "CSS3", "JavaScript", "TypeScript", "Python",
+  "React", "Next.js", "Node.js", "Express.js", "Socket.IO", "JWT", "TailwindCSS",
+  "MongoDB", "Postman", "Heroku", "Vultr", "Arduino"
+];
 
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #f0db4f; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" />
-    <small style="color:#f0db4f; margin-top: 5px; font-weight: 600;">JavaScript</small>
-  </span>
+const skillColors = {
+  HTML5: "bg-orange-600",
+  CSS3: "bg-blue-600",
+  JavaScript: "bg-yellow-400 text-black",
+  TypeScript: "bg-blue-500",
+  Python: "bg-blue-700",
+  React: "bg-[#20232A]",
+  "Next.js": "bg-black",
+  "Node.js": "bg-green-600",
+  "Express.js": "bg-gray-700",
+  "Socket.IO": "bg-black",
+  JWT: "bg-black",
+  TailwindCSS: "bg-cyan-500",
+  MongoDB: "bg-green-700",
+  Postman: "bg-orange-500",
+  Heroku: "bg-purple-700",
+  Vultr: "bg-blue-600",
+  Arduino: "bg-teal-500",
+};
 
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #3178c6; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40" />
-    <small style="color:#3178c6; margin-top: 5px; font-weight: 600;">TypeScript</small>
-  </span>
+const SkillsSection = () => {
+  return (
+    <div className="px-4 py-6 bg-gray-900 text-white rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold mb-4">💻 Tech Stack</h2>
+      <div className="flex flex-wrap gap-2">
+        {skills.map((skill) => (
+          <span
+            key={skill}
+            className={`px-3 py-1 rounded-full text-sm font-medium ${skillColors[skill] || "bg-gray-600"}`}
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #61dafb; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40" />
-    <small style="color:#61dafb; margin-top: 5px; font-weight: 600;">React</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #306998; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" />
-    <small style="color:#306998; margin-top: 5px; font-weight: 600;">Python</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #68a063; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40" />
-    <small style="color:#68a063; margin-top: 5px; font-weight: 600;">Node.js</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #000; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="40" height="40" />
-    <small style="color:#fff; margin-top: 5px; font-weight: 600;">Express</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #4DB33D; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40" />
-    <small style="color:#4DB33D; margin-top: 5px; font-weight: 600;">MongoDB</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #4479a1; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40" />
-    <small style="color:#4479a1; margin-top: 5px; font-weight: 600;">MySQL</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #f05340; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40" />
-    <small style="color:#f05340; margin-top: 5px; font-weight: 600;">Linux</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #f34f29; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" />
-    <small style="color:#f34f29; margin-top: 5px; font-weight: 600;">Git</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #ff6c37; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" height="40" />
-    <small style="color:#ff6c37; margin-top: 5px; font-weight: 600;">Postman</small>
-  </span>
-
-  <span style="background: #0d1117; padding: 10px 15px; border-radius: 12px; box-shadow: 0 0 10px #38bdf8; display: flex; flex-direction: column; align-items: center; width: 80px;">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40" />
-    <small style="color:#38bdf8; margin-top: 5px; font-weight: 600;">Tailwind CSS</small>
-  </span>
-</p>
-
+export default SkillsSection;
 ---
 
 <p align="center">
@@ -103,14 +81,21 @@
 
 ---
 
-<h2 align="center" style="margin-top: 40px;">💬 Quote</h2>
+import React from "react";
 
-<div align="center" style="max-width: 600px; margin: auto; background: #0d1117; border-radius: 12px; padding: 20px; box-shadow: inset 0 0 15px #4caf50; font-style: italic; color: #c3ffbd;">
-  “Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you are doing or learning to do.”
-  <br><br>
-  — Pelé
-</div>
+const DevQuoteCard = () => {
+  return (
+    <div className="bg-[#1e1e2e] text-white rounded-xl shadow-md p-5 mb-6">
+      <h2 className="text-xl font-semibold mb-3">📝 Random Dev Quote</h2>
+      <p className="text-cyan-300 text-lg italic">
+        "The only sin is to make a choice without knowing you are making one."
+      </p>
+      <p className="text-pink-400 mt-2 text-right">– Jonathan Shewchuk</p>
+    </div>
+  );
+};
 
+export default DevQuoteCard;
 ---
 
 <h2 align="center" style="margin-top: 40px;">📫 Contact</h2>
