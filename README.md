@@ -1,9 +1,7 @@
 <p align="center">
   <img src="https://i.pinimg.com/originals/7c/d7/2d/7cd72df765ac4f50767325c7c6564058.jpg" alt="profile picture" width="180" style="border-radius: 50%;" />
 </p><h1 align="center">Hi 👋, I'm Yash Bahuguna</h1><!-- 🏕 SSoC Badge --><p align="center">
-  <a href="https://ssoc.dev" target="_blank">
-    <img src="https://i.ibb.co/4NZxdn6/ssoc-badge.png" alt="SSoC 2025 Contributor" width="120"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/yashbhu/yashbhu/main/assets/ssoc-badge.png" alt="SSoC 2025 Contributor" width="120"/>
 </p><p align="center"><b>Contributor @ Social Summer of Code 2025</b></p><h3 align="center" style="line-height: 1.6;">
   A tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br><br>
   🎓 Pursuing B.Tech in Computer Science and Engineering<br><br>
