@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/yashbhu/yashbhu/main/assets/ssoc-badge.png" alt="SSoC 2025 Contributor" width="120"/>
 </p><p align="center"><b>Contributor @ Social Summer of Code 2025</b></p><h3 align="center" style="line-height: 1.6;">
   A tech enthusiast who loves exploring and building cool stuff that solves real-world problems.<br><br>
-  🎓 Pursuing B.Tech in Computer Science and Engineering<br><br>
+  🎓 Pursuing B.Tech in Computer Science <br><br>
   🚀 Actively looking to collaborate on cool projects, hackathons, and innovative ideas<br><br>
   🌱 Currently sharpening my web dev skills and learning new tech stacks<br><br>
   🤝 Open to connections for hackathons, ideas, and projects!
