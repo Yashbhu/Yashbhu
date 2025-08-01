@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -15,25 +15,28 @@ interface FeedbackFormProps {
 }
 
 export const FeedbackForm: React.FC<FeedbackFormProps> = ({ isOpen, onClose, onSubmit, incorrectLabel }) => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    correctLabel: '',
-    comments: '',
-  });
+  const [correctLabel, setCorrectLabel] = useState('');
+  const [comments, setComments] = useState('');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target;
-    setFormData(prev => ({ ...prev, [id]: value }));
-  };
+  // Reset form when the incorrectLabel prop changes (when a new feedback is initiated)
+  useEffect(() => {
+    if (isOpen) {
+      setCorrectLabel('');
+      setComments('');
+    }
+  }, [isOpen, incorrectLabel]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.correctLabel) {
+    if (!correctLabel.trim()) {
       alert('Please provide the correct label.');
       return;
     }
-    onSubmit({ ...formData, incorrectLabel });
+    onSubmit({
+      incorrectLabel,
+      correctLabel,
+      comments,
+    });
   };
 
   return (
@@ -50,9 +53,8 @@ export const FeedbackForm: React.FC<FeedbackFormProps> = ({ isOpen, onClose, onS
             initial={{ scale: 0.9, y: 20 }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0.9, y: 20 }}
-            transition={{ type: 'spring', stiffness: 300, damping: 30 }}
             className="w-full max-w-md"
-            onClick={e => e.stopPropagation()} // Prevent closing when clicking inside the modal
+            onClick={e => e.stopPropagation()}
           >
             <Card>
               <CardHeader>
@@ -74,11 +76,22 @@ export const FeedbackForm: React.FC<FeedbackFormProps> = ({ isOpen, onClose, onS
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="correctLabel">What should it be? (Required)</Label>
-                    <Input id="correctLabel" value={formData.correctLabel} onChange={handleChange} required />
+                    <Input
+                      id="correctLabel"
+                      value={correctLabel}
+                      onChange={(e) => setCorrectLabel(e.target.value)}
+                      required
+                      placeholder="e.g., ToolBox"
+                    />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="comments">Additional Comments</Label>
-                    <Textarea id="comments" value={formData.comments} onChange={handleChange} placeholder="e.g., The object was partially hidden." />
+                    <Textarea
+                      id="comments"
+                      value={comments}
+                      onChange={(e) => setComments(e.target.value)}
+                      placeholder="e.g., The object was partially hidden."
+                    />
                   </div>
                   <div className="flex justify-end">
                     <Button type="submit">Submit Feedback</Button>
