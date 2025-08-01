@@ -2,37 +2,38 @@ import React from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Sparkles, Eye, Trash2 } from "lucide-react";
+import { Sparkles, Trash2, Eye } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface DetectedObject {
   label: string;
   confidence: number;
-  bbox?: [number, number, number, number];
 }
 
 interface ImagePreviewProps {
   imageUrl: string;
   isAnalyzing?: boolean;
-  detectedObjects?: DetectedObject[];
-  summary?: string;
   onAnalyze: () => void;
   onClear: () => void;
+  annotatedImageUrl: string | null;
+  detectedObjects: DetectedObject[];
 }
 
 export const ImagePreview: React.FC<ImagePreviewProps> = ({
   imageUrl,
   isAnalyzing = false,
-  detectedObjects = [],
-  summary,
   onAnalyze,
   onClear,
+  annotatedImageUrl,
+  detectedObjects = [],
 }) => {
   return (
     <Card className="p-6 bg-gradient-card border-border/50">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold text-foreground">Image Preview</h3>
+          <h3 className="text-lg font-semibold text-foreground">
+            {annotatedImageUrl ? "Detection Result" : "Image Preview"}
+          </h3>
           <Button
             onClick={onClear}
             variant="outline"
@@ -50,17 +51,10 @@ export const ImagePreview: React.FC<ImagePreviewProps> = ({
           className="relative rounded-lg overflow-hidden bg-muted"
         >
           <img
-            src={imageUrl}
+            src={annotatedImageUrl || imageUrl}
             alt="Preview"
             className="block max-w-full h-auto mx-auto rounded-lg"
           />
-          
-          {/* This section will be empty until real detections are available */}
-          {detectedObjects.length > 0 && (
-            <div className="absolute inset-0 pointer-events-none">
-              {/* Real bounding boxes will be mapped here later */}
-            </div>
-          )}
         </motion.div>
 
         <div className="flex justify-center">
@@ -82,49 +76,44 @@ export const ImagePreview: React.FC<ImagePreviewProps> = ({
               </>
             ) : (
               <>
-                <Sparkles className="w-4 h-4 mr-2" />
-                Summarize with AI
+                <Eye className="w-4 h-4 mr-2" />
+                Detect Objects
               </>
             )}
           </Button>
         </div>
-
-        {/* Results section */}
-        {(detectedObjects.length > 0 || summary) && (
-          <motion.div
+        
+        {/* FIX: This section now correctly checks if there are detected objects */}
+        {detectedObjects.length > 0 && (
+           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
             className="space-y-4 pt-4 border-t border-border/50"
           >
             <h4 className="font-semibold text-foreground flex items-center">
               <Eye className="w-4 h-4 mr-2" />
-              Detection Results
+              What the AI Found
             </h4>
             
-            {detectedObjects.length > 0 && (
-              <div className="space-y-2">
-                <p className="text-sm text-muted-foreground">Detected objects:</p>
-                <div className="flex flex-wrap gap-2">
-                  {detectedObjects.map((obj, index) => (
-                    <Badge
-                      key={index}
-                      variant="secondary"
-                      className="bg-primary/10 text-primary hover:bg-primary/20"
-                    >
-                      {obj.label} ({Math.round(obj.confidence * 100)}%)
-                    </Badge>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {summary && (
-              <div className="p-4 bg-muted/50 rounded-lg">
-                <p className="text-sm text-foreground">{summary}</p>
-              </div>
-            )}
+            <div className="flex flex-wrap gap-2">
+              {detectedObjects.map((obj, index) => (
+                <Badge
+                  key={index}
+                  variant="secondary"
+                  className="bg-primary/10 text-primary hover:bg-primary/20 text-base"
+                >
+                  {obj.label} ({(obj.confidence * 100).toFixed(0)}%)
+                </Badge>
+              ))}
+            </div>
           </motion.div>
+        )}
+
+        {/* This message shows only if analysis ran but found nothing */}
+        {annotatedImageUrl && detectedObjects.length === 0 && (
+          <div className="pt-4 border-t border-border/50 text-center">
+            <p className="text-sm text-muted-foreground">No specific objects were detected.</p>
+          </div>
         )}
       </div>
     </Card>

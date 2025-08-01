@@ -5,7 +5,6 @@ import { Card } from "@/components/ui/card";
 import { CameraCapture } from "@/components/ui/camera-capture";
 import { ImageUpload } from "@/components/ui/image-upload";
 import { ImagePreview } from "@/components/ui/image-preview";
-import { FeedbackForm } from '@/components/ui/feedback-form';
 import { ArrowLeft, Upload, Camera } from "lucide-react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -15,37 +14,30 @@ import { toast } from "sonner";
 interface DetectedObject {
   label: string;
   confidence: number;
-  bbox?: [number, number, number, number];
 }
 
 const Analyze = () => {
   const navigate = useNavigate();
 
-  // State for core functionality
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [detectedObjects, setDetectedObjects] = useState<DetectedObject[]>([]);
-  const [summary, setSummary] = useState<string>("");
   const [isCameraModalOpen, setIsCameraModalOpen] = useState(false);
-
-  // State for the new feedback functionality
-  const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false);
-  const [feedbackTargetLabel, setFeedbackTargetLabel] = useState("");
-
-  // --- Core Handlers ---
+  const [annotatedImageUrl, setAnnotatedImageUrl] = useState<string | null>(null);
+  
+  // NEW: State to hold the text labels
+  const [detectedObjects, setDetectedObjects] = useState<DetectedObject[]>([]);
 
   const handleImageCapture = (imageDataUrl: string) => {
     setSelectedImage(imageDataUrl);
+    setAnnotatedImageUrl(null);
     setDetectedObjects([]);
-    setSummary("");
-    setIsCameraModalOpen(false);
     toast.success("Image captured successfully!");
   };
 
   const handleImageUpload = (imageDataUrl: string) => {
     setSelectedImage(imageDataUrl);
+    setAnnotatedImageUrl(null);
     setDetectedObjects([]);
-    setSummary("");
     toast.success("Image uploaded successfully!");
   };
 
@@ -54,7 +46,6 @@ const Analyze = () => {
 
     setIsAnalyzing(true);
     setDetectedObjects([]);
-    setSummary("");
     toast.info("Analyzing image...");
 
     try {
@@ -74,11 +65,22 @@ const Analyze = () => {
         throw new Error("Analysis failed on the server.");
       }
 
-      const result = await apiResponse.json();
+      // --- CORRECTED LOGIC ---
+      // 1. Get the JSON data from the custom header
+      const jsonData = apiResponse.headers.get("X-Json-Data");
+      if (jsonData) {
+        const parsedData = JSON.parse(jsonData);
+        setDetectedObjects(parsedData.detections || []);
+      }
+
+      // 2. Get the annotated image from the response body
+      const imageBlob = await apiResponse.blob();
+      if (annotatedImageUrl) {
+        URL.revokeObjectURL(annotatedImageUrl);
+      }
+      const annotatedUrl = URL.createObjectURL(imageBlob);
+      setAnnotatedImageUrl(annotatedUrl);
       
-      // FIX: Use fallback values to prevent crashes from an unexpected API response format.
-      setDetectedObjects(result.detections || []);
-      setSummary(result.summary || "");
       toast.success("Analysis completed!");
 
     } catch (error) {
@@ -90,47 +92,13 @@ const Analyze = () => {
   };
 
   const handleClearImage = () => {
-    setSelectedImage(null);
-    setDetectedObjects([]);
-    setSummary("");
-    toast.success("Image cleared");
-  };
-
-  // --- Feedback Handlers ---
-
-  const handleOpenFeedbackModal = (incorrectLabel: string) => {
-    setFeedbackTargetLabel(incorrectLabel);
-    setIsFeedbackModalOpen(true);
-  };
-
-  const handleFeedbackSubmit = async (feedbackData: Record<string, string>) => {
-    if (!selectedImage) return;
-
-    toast.info("Submitting feedback...");
-    try {
-      const response = await fetch(selectedImage);
-      const blob = await response.blob();
-      const imageFile = new File([blob], "feedback.jpg", { type: "image/jpeg" });
-
-      const formData = new FormData();
-      formData.append("image", imageFile);
-      for (const key in feedbackData) {
-        formData.append(key, feedbackData[key]);
-      }
-
-      const apiResponse = await fetch("http://127.0.0.1:5000/feedback", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!apiResponse.ok) throw new Error("Server failed to process feedback.");
-
-      toast.success("Thank you! Your feedback will help us improve.");
-      setIsFeedbackModalOpen(false);
-    } catch (error) {
-      toast.error("Could not submit feedback.");
-      console.error("Feedback error:", error);
+    if (annotatedImageUrl) {
+      URL.revokeObjectURL(annotatedImageUrl);
     }
+    setSelectedImage(null);
+    setAnnotatedImageUrl(null);
+    setDetectedObjects([]);
+    toast.success("Image cleared");
   };
 
   return (
@@ -164,13 +132,6 @@ const Analyze = () => {
         onCapture={handleImageCapture}
       />
 
-      <FeedbackForm
-        isOpen={isFeedbackModalOpen}
-        onClose={() => setIsFeedbackModalOpen(false)}
-        onSubmit={handleFeedbackSubmit}
-        incorrectLabel={feedbackTargetLabel}
-      />
-
       <div className="container mx-auto px-4 py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -178,7 +139,22 @@ const Analyze = () => {
           transition={{ delay: 0.2 }}
           className="max-w-6xl mx-auto"
         >
-          {!selectedImage ? (
+          {selectedImage ? (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4 }}
+            >
+              <ImagePreview
+                imageUrl={selectedImage}
+                isAnalyzing={isAnalyzing}
+                onAnalyze={handleAnalyze}
+                onClear={handleClearImage}
+                annotatedImageUrl={annotatedImageUrl}
+                detectedObjects={detectedObjects}
+              />
+            </motion.div>
+          ) : (
             <div className="space-y-8">
               <div className="text-center">
                 <h2 className="text-3xl font-bold text-foreground mb-4">
@@ -238,22 +214,6 @@ const Analyze = () => {
                 </div>
               </Tabs>
             </div>
-          ) : (
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4 }}
-            >
-              <ImagePreview
-                imageUrl={selectedImage}
-                isAnalyzing={isAnalyzing}
-                detectedObjects={detectedObjects}
-                summary={summary}
-                onAnalyze={handleAnalyze}
-                onClear={handleClearImage}
-                onOpenFeedback={handleOpenFeedbackModal}
-              />
-            </motion.div>
           )}
         </motion.div>
       </div>
