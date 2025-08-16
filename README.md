@@ -1,3 +1,15 @@
+# Yash Bahuguna
+
+**Computer Science Student | Full-Stack Developer**
+
+---
+
+## About Me
+
+I am a Computer Science student at **Maharaja Agrasen Institute of Technology** with a strong focus on full-stack development. I enjoy designing scalable and maintainable applications, exploring modern software architecture, and solving real-world problems with clean and efficient code. I am continuously learning new technologies, refining my skills, and contributing to projects that have meaningful impact.  
+
+---
+
 ## 🛠️ Tech Stack
 
 [![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
@@ -23,3 +35,19 @@
 [![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/) 
 [![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+
+---
+
+## 🔗 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Yashbhu) 
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Yashbhu) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Yashbhu)
