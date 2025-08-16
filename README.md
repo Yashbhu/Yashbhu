@@ -1,14 +1,12 @@
-Yash Bahuguna
+# Yash Bahuguna
 
-Computer Science Student | Full-Stack Developer
-
+**Computer Science Student | Full-Stack Developer**
 
 ---
 
-About Me
+## About Me
 
-Computer Science student at Maharaja Agrasen Institute of Technology, passionate about building scalable full-stack applications, exploring software architecture, and solving real-world problems with clean, maintainable code.
-
+Computer Science student at **Maharaja Agrasen Institute of Technology**, passionate about building scalable full-stack applications, exploring software architecture, and solving real-world problems with clean, maintainable code.
 
 ---
 
@@ -36,3 +34,25 @@ Computer Science student at Maharaja Agrasen Institute of Technology, passionate
 [![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/) 
 [![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)  
+![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+
+---
+
+## 📈 GitHub Contributions
+
+![Yash's GitHub Contributions](https://github.com/Yashbhu.png?size=200)
+
+---
+
+## 🔗 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Yashbhu) 
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Yashbhu) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Yashbhu)
