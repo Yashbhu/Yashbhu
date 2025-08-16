@@ -31,6 +31,7 @@ Computer Science student at **Maharaja Agrasen Institute of Technology**, passio
 [![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_(programming_language)) 
 
 [![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/) 
+[![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
 
 ---
