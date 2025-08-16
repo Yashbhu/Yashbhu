@@ -1,6 +1,5 @@
-# Yash Bahuguna
 
-**Computer Science student at Maharaja Agrasen Institute of Technology**  
+**Hi i am yash bahuguna a Computer Science student at Maharaja Agrasen Institute of Technology**  
 Passionate about building scalable applications, exploring full-stack development, and solving real-world problems with clean code and efficient architecture.  
 
 ---
