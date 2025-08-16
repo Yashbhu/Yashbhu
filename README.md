@@ -1,3 +1,17 @@
+Yash Bahuguna
+
+Computer Science Student | Full-Stack Developer
+
+
+---
+
+About Me
+
+Computer Science student at Maharaja Agrasen Institute of Technology, passionate about building scalable full-stack applications, exploring software architecture, and solving real-world problems with clean, maintainable code.
+
+
+---
+
 ## 🛠️ Tech Stack
 
 [![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
