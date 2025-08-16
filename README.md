@@ -1,15 +1,3 @@
-# Yash Bahuguna
-
-**Computer Science Student | Full-Stack Developer**
-
----
-
-## About Me
-
-Computer Science student at **Maharaja Agrasen Institute of Technology**, passionate about building scalable full-stack applications, exploring software architecture, and solving real-world problems with clean, maintainable code.
-
----
-
 ## 🛠️ Tech Stack
 
 [![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
@@ -26,6 +14,7 @@ Computer Science student at **Maharaja Agrasen Institute of Technology**, passio
 [![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/) 
 [![MongoDB](https://img.shields.io/badge/MongoDB-4aa94b?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) 
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)](https://www.postgresql.org/) 
+[![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1)](https://www.mysql.com/)
 [![Neon](https://img.shields.io/badge/Neon-111827?style=for-the-badge&logo=neon&logoColor=08F)](https://neon.tech/) 
 [![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D)](https://redis.io/) 
 [![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_(programming_language)) 
@@ -33,11 +22,3 @@ Computer Science student at **Maharaja Agrasen Institute of Technology**, passio
 [![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/) 
 [![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
-
----
-
-# 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
