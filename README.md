@@ -20,6 +20,7 @@ Computer Science student at **Maharaja Agrasen Institute of Technology**, passio
 [![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)  
 [![MongoDB](https://img.shields.io/badge/MongoDB-4aa94b?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)  
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)](https://www.postgresql.org/)  
+[![Neon](https://img.shields.io/badge/Neon-111827?style=for-the-badge&logo=neon&logoColor=08F)](https://neon.tech/)  
 [![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D)](https://redis.io/)  
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)  
 [![ShadCN UI](https://img.shields.io/badge/ShadCN-111827?style=for-the-badge)](https://ui.shadcn.com/)  
@@ -31,6 +32,3 @@ Computer Science student at **Maharaja Agrasen Institute of Technology**, passio
 ![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
-
-
-
