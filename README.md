@@ -6,7 +6,7 @@
 
 ## About Me
 
-I am a Computer Science student at **Maharaja Agrasen Institute of Technology** with a strong focus on full-stack development. I enjoy designing scalable and maintainable applications, exploring modern software architecture, and solving real-world problems with clean and efficient code. I am continuously learning new technologies, refining my skills, and contributing to projects that have meaningful impact.  
+I am a Computer Science student at **Maharaja Agrasen Institute of Technology** with a focus on full-stack development. I enjoy designing scalable and maintainable applications, exploring modern software architecture, and solving real-world problems with clean and efficient code. I am constantly learning new technologies, refining my skills, and contributing to projects with meaningful impact.
 
 ---
 
@@ -19,22 +19,22 @@ I am a Computer Science student at **Maharaja Agrasen Institute of Technology** 
 [![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/) 
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) 
 [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) 
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111827?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)](https://tailwindcss.com/) 
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111827?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)](https://tailwindcss.com/)  
 
 [![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=node.js&logoColor=339933)](https://nodejs.org/) 
 [![Express](https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/) 
 [![Prisma](https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/) 
 [![MongoDB](https://img.shields.io/badge/MongoDB-4aa94b?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) 
-[![Mongoose](https://img.shields.io/badge/Mongoose-111827?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
+[![Mongoose](https://img.shields.io/badge/Mongoose-111827?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)  
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1)](https://www.postgresql.org/) 
-[![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1)](https://www.mysql.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql&logoColor=4479A1)](https://www.mysql.com/)  
 [![Neon](https://img.shields.io/badge/Neon-111827?style=for-the-badge&logo=neon&logoColor=08F)](https://neon.tech/) 
-[![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D)](https://redis.io/) 
-[![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_(programming_language)) 
+[![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=DC382D)](https://redis.io/)  
 
-[![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/) 
+[![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_(programming_language))  
+[![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)  
+[![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
-[![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
 
 ---
 
