@@ -46,7 +46,7 @@ I am a Computer Science student at **Maharaja Agrasen Institute of Technology** 
 ## 📊 GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)  
+![](https://streak-stats.demolab.com?user=Yashbhu&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
 ---
