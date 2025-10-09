@@ -49,12 +49,6 @@ I am a Computer Science student at **Maharaja Agrasen Institute of Technology** 
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
 [![Rust](https://img.shields.io/badge/Rust-111827?style=for-the-badge&logo=rust&logoColor=white)](https://rust-lang.org)
 
-### ML / AI
-[![NumPy](https://img.shields.io/badge/NumPy-111827?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-111827?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)](https://scikit-learn.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-111827?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)](https://pytorch.org/)
-
 ---
 
 ## 📊 GitHub Stats
