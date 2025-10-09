@@ -40,7 +40,8 @@ I am a Computer Science student at **Maharaja Agrasen Institute of Technology** 
 [![Flask](https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=000000)](https://flask.palletsprojects.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=009688)](https://fastapi.tiangolo.com/) 
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
-[![Rust](https://img.shields.io/badge/Rust-111827?logo=rust&logoColor=white)](https://rust-lang.org)]
+[![Rust](https://img.shields.io/badge/Rust-111827?logo=rust&logoColor=white)](https://rust-lang.org)
+
 
 ---
 
