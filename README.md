@@ -38,6 +38,8 @@ I am a Computer Science student at **Maharaja Agrasen Institute of Technology** 
 [![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=c%2b%2b&logoColor=00599C)](https://isocpp.org/)
 [![Rust](https://img.shields.io/badge/Rust-111827?style=for-the-badge&logo=rust&logoColor=white)](https://rust-lang.org)
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-111827?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
+
 
 ---
 
