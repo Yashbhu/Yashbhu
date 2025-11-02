@@ -9,7 +9,7 @@
 I am a Computer Science student at **Maharaja Agrasen Institute of Technology** with a strong focus on full-stack development. I enjoy designing scalable and maintainable applications, exploring modern software architecture, and solving real-world problems with clean and efficient code. I am continuously learning new technologies, refining my skills, and contributing to projects that have meaningful impact.  
 
 ---
-##  Tech Stack
+## what i’ve worked with so far
 
 [![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)
