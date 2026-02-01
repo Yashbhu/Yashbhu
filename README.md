@@ -1,6 +1,3 @@
-# i am CEO bitch
-
----
 
 ## Connect with Me
 
