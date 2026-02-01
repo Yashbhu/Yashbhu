@@ -1,20 +1,4 @@
-# Yash Bahuguna
-
-**Computer Science Student | Full-Stack Developer**
-
----
-
-## About Me
-
-I am a Computer Science student at **Maharaja Agrasen Institute of Technology** with a strong focus on full-stack development. I enjoy designing scalable and maintainable applications, exploring modern software architecture, and solving real-world problems with clean and efficient code. I am continuously learning new technologies, refining my skills, and contributing to projects that have meaningful impact.  
-
----
-
-## GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Yashbhu&theme=dark&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashbhu&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+# i am CEO bitch
 
 ---
 
