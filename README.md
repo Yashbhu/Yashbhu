@@ -1,2 +1,2 @@
-we aint bound to a fixed tech stack
-
+Hi! Welcome to my GitHub.
+Basically my engineering journal — what I learn, build, and randomly experiment with.
