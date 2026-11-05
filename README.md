@@ -1,4 +1,5 @@
-Basically my engineering journal for
-what I learn, build, and randomly experiment with.
+You can call me a Backend / infra engineer. Currently FAFOing with AI.
 
-currently working on oppiabot consolidation project : https://github.com/oppia/oppiabot/issues/378
+Working on:
+- [OppiaBot consolidation](https://github.com/oppia/oppiabot/issues/378)
+- [Causent](https://github.com/causent/causent) [ Next big thing ]
